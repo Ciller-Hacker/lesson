@@ -41,12 +41,19 @@ img{
 .img{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
     
 }
+
+.blo{
+     width: 65%;
+}
+
 .right{
-    width: 65%;
+   
     padding: 30px 20px;
     justify-content: space-between;
+     box-shadow:inset 0 -3px 10px 1px #222;
 }
 .right-text{
      margin-bottom: 20px;
@@ -56,16 +63,19 @@ img{
     display: flex;
     justify-content: space-between;
     margin: 0;
-    height: 44px;
+    height: 50px;
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     align-items: center;
-    box-shadow: 0 -3px 3px 2px #222;
-    position: absolute;
-    width: 588px;
-    left: 650px}
+   
+    
+  
+   }
 
+   strong{
+   font-size: 30px;
+   }
 
     .tochka{
         width: 2px;
